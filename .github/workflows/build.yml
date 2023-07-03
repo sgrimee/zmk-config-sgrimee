@@ -3,10 +3,8 @@ on:
     paths:
       - 'config/**.conf'
       - 'config/**.keymap'
+      - 'build.yaml'
   pull_request:
-    paths:
-      - 'config/**.conf'
-      - 'config/**.keymap'
 
 jobs:
   build:
