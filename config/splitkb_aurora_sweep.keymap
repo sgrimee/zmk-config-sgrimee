@@ -100,8 +100,8 @@
        	sym2_layer {
     		bindings = <
     		&kp CARET &kp UNDER &none     &kp US_EURO &kp HASH        &none &none &none &none &none
-    		&kp BKTK  &kp TILDE &kp BSLH  &kp PIPE    &kp AMPS        &none &none &none &none &none
-    		&none 	  &none     &kp SECT  &kp US_CCED &kp US_DEG	  &none &none &none &none &none
+    		&kp GRAVE &kp TILDE &kp BSLH  &kp PIPE    &kp AMPS        &none &none &none &none &none
+    		&none 	  &none     &none     &kp US_CCED &kp US_DEG	  &none &none &none &none &none
              				           	  &none       &none           &none &none
     		>;
 		};
