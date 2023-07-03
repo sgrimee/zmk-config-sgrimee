@@ -1,4 +1,12 @@
-on: [push, pull_request, workflow_dispatch]
+on:
+  push:
+    paths:
+      - 'config/**.conf'
+      - 'config/**.keymap'
+  pull_request:
+    paths:
+      - 'config/**.conf'
+      - 'config/**.keymap'
 
 jobs:
   build:
